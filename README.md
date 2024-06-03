@@ -1,4 +1,4 @@
-# Minimal Blog Card
+# Testimonial Page
 
 ![Demo](screenshots/demo.png)
 
