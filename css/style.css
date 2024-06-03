@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --span-background-color: #F5C044;
+    --title-color: #18181B;
+    --paragraph-color: #52525A;
+    --background-color: #FAFAF9;
+    --card-background-color: #FFFFFF;
+    --box-shadow-color: #D4D4D8;
+}
+
+.content {
+    font-family: "Sora", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .reviewers {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    width: 546px;
+    margin: 15px;
+}
+
+.content .reviewers span {
+    background-color: var(--span-background-color);
+    padding: 10px;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+}
+
+.content .reviewers h1 {
+    font-size: 36px;
+    color: var(--title-color);
+    margin: 15px 0;
+}
+
+.content .reviewers p {
+    font-size: 20px;
+    line-height: 1.6em;
+    color: var(--paragraph-color);
+}
+
+.content .reviewers ul {
+    list-style: none;
+    margin: 28px 0;
+}
+
+.content .reviewers ul li {
+    font-size: 14px;
+    color: var(--paragraph-color);
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.content .reviewers ul li img {
+    margin-right: 7px;
+}
+
+.content .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 580px;
+    margin: 15px;
+}
+
+.content .cards .card {
+    padding: 35px;
+    background-color: var(--card-background-color);
+    width: 358px;
+    border-radius: 25px;
+    margin: 16px;
+    box-shadow: 0px 0px 45px 0px var(--box-shadow-color);
+}
+
+.content .cards .card .testimonial-logo {
+    margin-right: 10px;
+    height: 32px;
+    width: 95px;
+}
+
+.content .cards .card-right {
+    margin-left: 208px;
+}
+
+.content .cards .card h1 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: var(--title-color);
+}
+
+.content .cards .card p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 1.6;
+}
