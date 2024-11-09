@@ -1,11 +1,13 @@
-# Testimonial Page
-![Demo](screenshots/demo.png)
+![Demo](docs/demo.png)
 
-## Build with:
-* HTML
-* CSS
-    * Flexbox
+## Build with
 
-## About & Features:
-* Frontend
-* [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/testimonial-page)
+- HTML5
+- CSS3
+    - Flexbox
+
+## About & Features
+
+- Frontend
+- Responsive
+- [Challenge (*devchallenges.io*)](https://devchallenges.io/challenge/testimonial-page)
